@@ -12,8 +12,52 @@
             <li>porque si</li>
             <li>porque es obvio miralo</li>
         </ol>
-        <input>
-        <textarea></textarea>
+
+        <form>
+            <h2>Formulario de contacto de michis:</h2>
+            <label>
+                Nombre del Michi:
+            <input type="text" name="nombre" placeholder="nombre de tu michi"> 
+        </label>
+            <br>
+            <label>
+                Apellido del Michi
+            <input type="text" name="apellido" placeholder="apellido de tu michi">
+        </label>
+            <br>
+            <label for="michi_description-id">Descripcion del michi:</label>
+            <br>
+            <textarea name="michi-description" id="michi_description-id" cols="30" rows="10"></textarea>
+            <br>
+            <label>
+                Contextura del michi:
+                <select name="michi-fatness">
+                <option value="Flaquito">Flaquito</option>
+                <option value="maso"> Mas o menos</option>
+                <option value="rellenito">Rellenito</option>
+            </select>
+            </label>
+            <br>
+            <br>
+            <label>
+                Foto del Michi:
+                <input type="file" accept=".jpg,.png,.bmp" ></input>
+            </label>
+            <br>
+            
+            <br>
+            <span>Color de la lengua de tu gato:</span>
+            <br/>
+            <label>
+            <input type="radio" name="tongue_color" value="red"> Rojo
+            </label>
+            <label>
+            <input type="radio" name="tongue_color" value="green"> Verde
+        </label>
+            <br>
+            
+            <input type="submit" value="enviar la info de mi michi">
+        </form>
        
         <button>Holi</button> 
 

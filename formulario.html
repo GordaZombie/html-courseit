@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=w, initial-scale=1.0">
+    <title>Formulario-courseit</title>
+</head>
+<body>
+    <form action="hola.com/formulario">
+        <label>Nombre<br><br><input type="text" name="nombre"> 
+        </label>
+        <br>
+        <br>
+        <label>Apellido<br><br><input type="text" name="apellido"> 
+        </label>
+        <br>
+        <br>
+        <label>Edad<br><br><input type="number" name="edad"> 
+        </label>
+        <br>
+        <br>
+        <label>Nacionalidad<br><br>
+            <select name="nacionalidad">
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+                <option value="paraguay">Paraguay</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="brasil">Brasil</option>
+                <option value="bolivia">Bolivia</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <span>Tecnología</span>
+        <br>
+        <br>
+        <label>
+            <input type="checkbox" name="tecnologia" value="Frontend"> Frontend
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="tecnologia" value="Backend"> Backend
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="tecnologia" value="Fullstack"> Fullstack
+        </label>
+        <br>
+        <br>
+        <span>Sos mayor de edad?</span>
+        <br>
+        <br>
+        <label><input type="radio" name="mayoria_edad" value="Si"> Si
+        </label>
+        <br>
+        <label><input type="radio" name="mayoria_edad" value="No"> No
+        </label>
+        <br>
+        <br> 
+        <input type="submit">
+    </form>
+</body>
+</html>
