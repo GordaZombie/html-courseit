@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   //Dada una variable "y" que puede contener un número de 1 a 7, determinar a que día de la semana corresponde. Incluir la opción si la variable toma un valor no válido (por ejemplo 0 u 8).
+
+let dia = 4;
+
+if (dia == 1){
+    console.log("lunes");
+} else if (dia == 2){
+    console.log("martes");
+} else if(dia == 3){
+    console.log("miercoles");
+} else if(dia == 4){
+    console.log("jueves");
+} else if(dia == 5){
+    console.log("viernes");
+} else if(dia == 6){
+    console.log("sabado");
+} else if(dia == 7){
+    console.log("domingo");
+} else {
+    console.log("invalido");
+}
+
+
+//Dada una variable donde se ingresa el nombre del mes, devolver la cantidad de días correspondiente.
+
+let mes = "enero";
+
+if(mes == "enero"){
+    console.log("31");
+} else if(mes == "febrero"){
+    console.log("28");
+} else if(mes == "marzo"){
+    console.log("30");
+} else if(mes == "abril"){
+    console.log("30");
+} else if(mes == "mayo"){
+    console.log("31");
+} else if(mes == "junio"){
+    console.log("30");
+} else if(mes == "julio"){
+    console.log("31");
+} else if(mes == "agosto"){
+    console.log("31");
+} else if(mes == "septiembre"){
+    console.log("30");
+} else if(mes == "octubre"){
+    console.log("31");
+} else if(mes == "noviembre"){
+    console.log("30");
+} else if(mes == "diciembre"){
+    console.log("31");
+} else{
+    console.log("invalido");
+}
+
+//Dada una variable "x" la cual contiene un numero, determinar si ese numero es positivo o negativo. Si es cero, mostrar otro mensaje
+
+let numero = -3;
+
+if (numero > 1){
+    console.log("positivo");
+} else if(numero < 0){
+    console.log("negativo");
+} else{
+    console.log("neutro");
+}
+
+
+//Dada una variable "x" la cual contiene una letra, determinar si es una vocal.
+
+let letra = "j";
+
+if (letra == "a"){
+    console.log("es vocal");
+} else if(letra == "e"){
+    console.log("es vocal");
+} else if(letra == "i"){
+    console.log("es vocal");
+} else if(letra == "o"){
+    console.log("es vocal");
+} else if(letra == "u"){
+    console.log("es vocal");
+} else {
+    console.log("es consonante");
+}
+
+//Dadas dos variables ("x" e "y") las cuales contienen un numero, determinar cual es mayor.
+
+let primerNumero = 11;
+let segundoNumero = 3;
+
+
+if (primerNumero > segundoNumero){
+    console.log(primerNumero + "es mayor que" + segundoNumero);
+} else {
+    console.log(primerNumero + "es menor que" + segundoNumero);
+}
+
+//Imprimir en pantalla los numeros del 1 al 10 utilizando un bucle "for".
+
+for(i = 0; i <11; i++){
+    console.log(i);
+}
+
+//Dada una variable "x" la cual contiene un numero, imprimir en consola todos los numeros que esten entre el valor de la variable y 0.Ejemplo: Si la variable X es 3, imprimir en pantalla 3, 2, 1 y 0
+
+let numero = 6;
+
+for(i = 0; i <= numero; i++){
+    console.log(i);
+    
+}
+</script>
+</body>
+</html>
